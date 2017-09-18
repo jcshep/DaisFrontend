@@ -1,0 +1,30 @@
+@media only screen and (max-width:992px) {
+
+	#slider .container,
+	.container {width: inherit;}
+
+	html {min-width: 320px;}
+	body {position: relative;}
+	.mobile {display: block;}
+
+	.menu-header {display: none;}
+
+	#hamburger {width: 40px; position: absolute; right: 2%; top: 21px; height: 38px; z-index: 9999; display: block; background: #7fa430;}
+	#hamburger .top {height: 4px; background: #FFF; top: 8px; position: absolute; width: 70%; left: 15%;}
+	#hamburger .middle {height: 4px; background: #FFF; top: 17px; position: absolute; width: 70%;left: 15%;}
+	#hamburger .bottom {height: 4px; background: #FFF; top: 26px; position: absolute; width: 70%;left: 15%;}
+
+	#slide_out {position:fixed; width: 60%; right:-60%; top: 0; background: #0b0c0d; height: 100%; z-index: 9999; overflow: scroll;  margin: 0; padding: 0;}
+	#slide_out ul {background: transparent; top: auto; left: auto; position: relative; border-radius: 0;}
+	#slide_out ul li {display: block; line-height: 25px; border-bottom: 1px solid #000; border-top: 1px solid #1c2128; float: none !important;}
+	#slide_out ul li a {display: block; text-align: left; padding: 0 20px; color: #CCC; line-height: 44px; font-size: 15px;}
+	#slide_out ul li .sub-menu {position: relative; width: auto; top: auto; box-shadow: 0;  background: #111; display: none; padding: 5px 0;}
+	#slide_out ul li .sub-menu li {border-bottom: 0; border-top:0;}
+	#slide_out ul li .sub-menu li a {padding: 0 0 0 30px; font-size: 14px; line-height: 30px;}
+	#slide_out ul li .sub-menu li .sub-menu li a {padding: 0 0 0 50px}
+
+}
+
+
+@media only screen and (max-width:770px) {}
+@media only screen and (max-width:767px) {}
