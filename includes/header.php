@@ -40,7 +40,7 @@
         <a href="about.php#careers">Careers</a>
         <a href=""> Leadership</a>
         <div class="separator"></div>
-        <a href="resources.php">Contractor Resources</a>
+        <a href="contractor-registration.php">Contractor Resources</a>
     </div>
 </div>
     
@@ -58,7 +58,7 @@
             </div> <!--col-->
             <div class="col-sm-4 hidden-xs text-right links">
                 <a href="index.php#map">Get Started</a>
-                <a href="" target="_blank">Log In</a>
+                <a href="contractor-login.php">Log In</a>
             </div> <!--col-->
         </div> <!--row-->
     </div>

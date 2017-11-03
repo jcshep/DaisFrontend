@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	
+	
 
 	// Offerings Slider
 	$('#offerings-slider').bxSlider({
@@ -30,14 +31,27 @@ $(document).ready(function() {
 
 	// Form cards
 	$("#cards .card").click(function() {
-		$("#cards .card").removeClass('active');
+		$(".card").removeClass('active');
 		$(this).toggleClass('active');
 	});
+
+
+	// Form options
+	$(".quantity-options .option").click(function() {
+		$(this).parent().find(".option").removeClass('active');
+		$(this).toggleClass('active');
+	});
+
 
 	// Form Continue
 	$("a.continue").click(function() {
 		var nextPanel = $(this).data('panel');
 		$("#panel-"+nextPanel).addClass('active');
+
+		$('html, body').animate({
+	        scrollTop: ($("#panel-"+nextPanel).offset().top - 150)
+	    }, 500);
+
 		return false;
 	});
 
@@ -57,6 +71,16 @@ $(document).ready(function() {
 	}).blur(function(){
 		$(this).parent().addClass("active");
 	})
+
+
+
+	$("#contractor-portal .dropdown-options a").click(function() {
+		var id = $(this).data('location');
+		$(".neighborhood-"+id).slideDown();
+		$('.dropdown-options').fadeToggle();
+		$(".dropdown-button").toggleClass('active');
+		return false;
+	});
 
 
 

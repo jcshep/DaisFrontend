@@ -27,8 +27,14 @@
 			</div>
 		</div>		
 	</div>
+
+
+
 	
 	
+	<?php include 'includes/faq.php' ?>
+
+	<?php include 'includes/manuals.php' ?>
 
 
 	<?php include 'includes/residential-cta.php' ?>

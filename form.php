@@ -18,6 +18,12 @@
 			
 			<?php include 'includes/form/panel-2.php' ?>
 
+			<?php include 'includes/form/panel-3.php' ?>
+
+			<?php include 'includes/form/panel-4.php' ?>
+
+			<?php include 'includes/form/panel-5.php' ?>
+
 		</div> <!-- container -->
 	</div> <!-- start-form -->
 	
